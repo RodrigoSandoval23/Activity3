@@ -1,0 +1,122 @@
+/* =========================================
+   Global Reset & Typography
+   ========================================= */
+* {
+  margin: 0;
+  padding: 0;
+  /* Ensure padding and borders do not add to total width/height */
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* =========================================
+   Page Layout (Centering)
+   ========================================= */
+body {
+  background-color: #f0f2f5;
+  /* Flexbox used here specifically to center the card vertically and horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* =========================================
+   Component: Signup Card
+   ========================================= */
+.card {
+  background: #ffffff;
+  padding: 2.5rem;
+  border-radius: 20px;
+  /* Soft shadow for depth; low opacity keeps it subtle on light backgrounds */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  /* Max-width prevents the card from becoming too wide on large monitors */
+  max-width: 500px;
+}
+
+h2 {
+  color: #555;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+/* =========================================
+   Form Layout (CSS Grid)
+   ========================================= */
+.grid-container {
+  display: grid;
+  /* Create two equal-width columns for side-by-side inputs (e.g., First Name | Last Name) */
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.input-group {
+  margin-bottom: 1.2rem;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #8ecae6;
+  border-radius: 12px;
+  outline: none;
+}
+
+/* Utility: Full Width
+   Used for inputs that need to break the 2-column pattern (e.g., Email, Password)
+*/
+.full-width {
+  grid-column: span 2;
+}
+
+/* =========================================
+   Component: Buttons & Footer
+   ========================================= */
+.btn-primary {
+  width: 100%;
+  padding: 14px;
+  background-color: #3a5fcf;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 10px;
+  /* Transition for hover effects recommended here */
+}
+
+.footer-links {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #4a69bd;
+}
+
+/* =========================================
+   Mobile Responsiveness
+   ========================================= */
+@media (max-width: 480px) {
+  /* NOTE: Currently, this media query maintains the 2-column layout.
+     If a single-column stack is desired for mobile, change 
+     grid-template-columns to '1fr' and remove the .full-width span.
+  */
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+
+  .full-width {
+    grid-column: span 2;
+  }
+}
