@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1769769964256,
+    "name": "Rodrigo",
+    "lastName": "Sandoval",
+    "email": "rodrigo@gmail.com",
+    "password": "$2b$10$X/QKawkauYCXTuK0xqkm8udtMpqzjJ.ebKAoKGdDBi36CEmJQrRt."
+  },
+  {
+    "id": 1769770217244,
+    "name": "Anneli",
+    "lastName": "Maythey",
+    "email": "Anneli@gmail.com",
+    "password": "$2b$10$0RoBhntdEUl7Hs9Jk0DJP./WqFwPzLckqjtSbny0Dv2tFPTT5b2PK"
+  },
+  {
+    "id": 1769772455615,
+    "name": "Thereza",
+    "lastName": "Maythey",
+    "email": "Thereza@gmail.com",
+    "password": "$2b$10$871B1VT73VUFQkxjb2nZE.VbJ3b5bGt0vWHLPSW4IyCRl2Wk/39te"
+  },
+  {
+    "id": 1769775087247,
+    "name": "Maythey",
+    "lastName": "Icheh",
+    "email": "May@gmail.com",
+    "password": "$2b$10$1zTnuITAjmaFQJCPv1IDrOxHaRq2aaH3q.avRruUDwTue7xnp.OQi"
+  },
+  {
+    "id": 1769791528571,
+    "name": "Rafa",
+    "lastName": "Rafa",
+    "email": "rafa@gmail.com",
+    "password": "$2b$10$iM.e7sAVmZ3JN8iFlXF29.sFg5hfQ3dWwlqnDRBhNveRVP5HYdmt2"
+  },
+  {
+    "id": 1769831437556,
+    "name": "no",
+    "lastName": "no",
+    "email": "no@gmail.com",
+    "password": "$2b$10$xzwlKv5L0Og85a8Uax4/P.vu4PyShM.2dC2BaKcrENBOwULs68HRC"
+  },
+  {
+    "id": 1769832076671,
+    "name": "Ann",
+    "lastName": "Ann",
+    "email": "Ann@gmail.com",
+    "password": "$2b$10$M5.2O6Q7CNICMX.iJvwz8O2VfFtg7hzbHtZYjHqsu2dAM/ZE7CVUm"
+  }
+]
